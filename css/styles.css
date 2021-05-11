@@ -1,0 +1,175 @@
+#title{
+    background-color: #ff4c68;
+    color: whitesmoke;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+h1{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.navbar{
+    padding-bottom: 5rem;
+    padding-top: 4rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding:0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+body{    
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Download buttons */
+
+.download-btn{
+    margin: 5% 3% 3% 0;
+}
+
+/* Title image */
+
+.phone-img{
+    width: 20%;
+    position: absolute;
+    transform: rotate(20deg);
+    right: 15%;
+}
+
+@media (max-width: 990px){
+    .phone-img{
+        position: static;
+        transform: rotate(0deg);
+        width: 50%;
+    }
+    .title{
+        text-align: center;
+    }
+}
+
+.title{
+    padding-bottom: 15%;
+}
+
+/* Features */
+
+#features{
+    padding: 7% 5%;
+    background-color: white;
+    position: relative;
+}
+
+.features-icons{
+    font-size: 4rem;
+    color: #ef8172;
+    text-align: center;
+}
+
+.features-icons:hover{
+    color: #ff4c68;
+}
+
+.features-h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.features-p{
+    font-family: 'Montserrat', sans-serif;
+    color: #8f8f8f;
+    text-align: center;
+    margin: 2% 25%;
+}
+
+/* Testimonials */
+
+#testimonials{
+    background-color: #ef8172;
+    text-align: center;
+    color: white;
+}
+
+.testimonials-h2{
+    font-size: 1.5rem;
+    font-size: 3rem;
+}
+
+.testimonials-img{
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 7%;
+}
+
+.press-logo{
+    width: 12%;
+    margin: 50px 20px 30px;
+}
+
+.carousel-item{
+    padding: 7% 15% 3%;
+}
+
+/* Pricing */
+
+#pricing{
+    padding: 5% 15%;
+}
+
+/* Cta */
+
+#cta{
+    background-color: #ff4c68;
+    color: white;
+    text-align: center;
+}
+
+h3{
+    font-size: 3rem;
+    line-height: 1.5;
+    padding: 5% 20% 0;
+}
+
+.bb{
+    margin-bottom: 100px;
+}
+
+/* Footer */
+
+#footer{
+    text-align: center;
+    background-color: white;
+    margin: 100px;
+}
+
+.social-icon{
+    padding: 1%;
+}
+
+.copy{
+    color: gray;
+}
